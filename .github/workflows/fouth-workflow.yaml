@@ -1,0 +1,9 @@
+name: My first github work flow
+on: 
+  workflow_dispatch
+jobs:
+  first-job:
+   runs-on: ubuntu-latest
+    steps:
+      name: printing hello world 
+      run: echo "hello welcome to my repo"
