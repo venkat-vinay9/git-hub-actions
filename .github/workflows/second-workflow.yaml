@@ -3,7 +3,7 @@ on:
     workflow_dispatch
 jobs:
   second job:
-   runs on: ubuntu latest
+   runs-on: ubuntu latest
    steps:
     - name: Printing two messages
       run: |
