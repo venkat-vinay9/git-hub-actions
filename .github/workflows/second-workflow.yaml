@@ -10,4 +10,6 @@ jobs:
        echo "hello this is my second message"
        echo "*********************************"
     - name: event name
-      run: echo "event name is ${{ hithub.event_name }}"
+      run: echo "event name is : ${{ github.event_name }}"
+
+      
