@@ -2,7 +2,7 @@ name: My second workflow
 on: 
     workflow_dispatch
 jobs:
-  second job:
+  second-job:
    runs-on: ubuntu latest
    steps:
     - name: Printing two messages
@@ -11,7 +11,7 @@ jobs:
        echo "*********************************"
     - name: event name
       run: 
-       echo "event name is  ${{ github.event_name }}"
+       echo "event name is :  ${{ github.event_name }}"
 
       
 
