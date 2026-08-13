@@ -7,7 +7,6 @@ jobs:
    steps:
     - name: Printing two messages
       run: |
-       sleep 10
        echo "hello this is my second message"
        echo "*********************************"
     - name: event name
