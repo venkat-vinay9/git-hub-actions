@@ -7,11 +7,12 @@ jobs:
    steps:
     - name: Printing two messages
       run: |
+       sleep 10
        echo "hello this is my second message"
        echo "*********************************"
     - name: event name
       run: 
-       echo "event name is :  ${{ github.event_name }}"
+        echo "event name is - ${{ github.event_name }}"
 
       
 
