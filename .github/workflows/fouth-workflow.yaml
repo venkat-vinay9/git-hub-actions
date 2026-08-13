@@ -4,6 +4,6 @@ on:
 jobs:
   first-job:
    runs-on: ubuntu-latest
-    steps:
+   steps:
       name: printing hello world 
-      run: echo "hello welcome to my repo"
+      run: echo "hello welcome to my repository"
